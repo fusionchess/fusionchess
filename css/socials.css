@@ -82,7 +82,7 @@ input[type=button] {
   }
 
   input[type=button] {
-    background: white;
+    background: transparent;
     border: 0;
     width: 8.894rem;
     height: 8.894rem;
