@@ -50,19 +50,20 @@ body{
 }
 
 h2 img{
-   width: 20rem;
+   width: 16.666666666666668vw;
 }
 
 h1{
     text-align: center;
     color: white;
-    font-size: 6rem;
+    font-size: 4.3125vw;
     margin: -2rem auto;
+    font-family: 'Passion One', cursive;
 }
 
 h1 img{
-    width: 8rem;
-    margin: -1.9rem 0;
+    width: 5.3125vw;
+    margin: -2.156801661474559vh 0;
 }
 
 .container{
@@ -73,9 +74,9 @@ h1 img{
 }
 
 .items-section{
-    width: 18.75rem;
-    height: 6.25rem;
-    border-radius: 1.5625rem;
+    width: 15.625vw;
+    height: 10.384215991692628vh;
+    border-radius: 1.3020833333333333vw;
     background-color: white;
     mix-blend-mode: soft-light;
     }
