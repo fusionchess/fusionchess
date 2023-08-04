@@ -554,26 +554,33 @@ div#slider{
 }
 h2{
   font-family: 'Passion One', cursive;
-  font-size: 4rem;
+  font-size: 3.3333333333333335vw;
   float: right;
-  margin-top: -47rem;
-  margin-right: 7rem;
+  margin-top: -78.08930425752855vh;
+  margin-right: 5.833333333333333vw;
   color: white;
 }
 
 
 #game-of-the-day{
  float: right;
- margin-top: -42rem;
- margin-right: 7rem;
+ margin-top: -69.78193146417445vh;
+ margin-right: 5.833333333333333vw;
 }
+
+ #game-of-the-day iframe{
+  width: 23.4375vw;
+  height: 62.30529595015577vh;
+ }
+
+
 
 .line{
   display: flex;
   margin-left: 63%;
-  margin-top: -47.5rem;
-  width: 0.3rem;
-  height: 42rem;
+  margin-top: -78.932503vh;
+  width: 0.25vw;
+  height: 69.78193146417445vh;
   background-color: white;
 
 }
