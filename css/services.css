@@ -1,0 +1,85 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #F8F8F8;
+}
+
+img[src="/Pictures/chess-war.png"]{
+  background-size: cover;
+  width: 98%;
+ margin: 2vh 1vw;
+}
+
+/* Navigation */
+
+.navbar{
+  background-color: #FFFFFF;
+  display: flex;
+ align-items: center;
+ justify-content: center; 
+ list-style-type: none;
+ margin-left: 1vw;
+ margin-right: 1vw;
+ padding: 2vh 1vw;
+ margin-top: -2.4vh;
+ box-shadow: 0 0.16614745586708204vh black;
+}
+
+.navbar li a{
+  font-size: 1.23vw;
+  color: black;
+  font-family: 'Montagu Slab', serif;
+  text-decoration: none;
+  padding: 1.6614745586708204vh 4.166666666666667vw;
+align-items: center;
+justify-content: center;
+}
+
+.navbar li a:hover{
+  background-color: black;
+  color: #FFFFFF
+}
+
+/* Plans photo */
+
+.container-plans{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.plans{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.plans img{
+  width: 20vw;
+}
+
+/* Clickable Boxes/Buttons on Plans  */
+
+.container-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6.145833333333333vw;
+    height: 12.2533748701973vh;
+    background-color: none;
+    transform: rotate(45deg);
+    margin: 0vh 7vw;
+    margin-top: -17vh;
+    cursor: pointer;
+}
