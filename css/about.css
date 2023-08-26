@@ -99,3 +99,70 @@ justify-content: center;
 .rectangle:hover .answer{
   display: block;
 }
+/* Founder Heading */
+
+#founders{
+  text-align: center;
+  font-size: 10vw;
+  font-family: 'Montagu Slab', serif;
+  color: #313131;
+
+}
+/* Founder Pictures */
+
+.founder-pics{
+  margin-top: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.founder-pics img{
+  width: 18.229166666666668vw;
+}
+
+/* Text Boxes */
+
+.text-box-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+ .text-box{
+  width: 30vw;
+  height: 26vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.1vw solid black;
+}
+
+.text-box p{
+  font-size: 1.7vw;
+  font-family: 'Montagu Slab', serif;
+  margin: auto auto;
+  padding: 8vh 4vw;
+}
+
+/* Vertical line between The Photos */
+
+.vertical-line {
+  width: 0.1vw;
+  height: 77vh;
+  background-color: black;
+  margin-left: 50vw;
+  margin-top: -76vh;
+}
+
+/* Hovering on Photo effect
+
+#kapil-text-box{
+  transform: scale(1.5) translate(50px, 200px);
+}
+
+.founder-pics img[src="/Pictures/kapil-photo.png"]:hover + .text-box-container #kapil-text-box {
+  transform: scale(1.5) translate(50px, 200px);
+  transition: transform 3s;
+
+} */
