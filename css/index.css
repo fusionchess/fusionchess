@@ -52,67 +52,9 @@ justify-content: center;
   margin: 0 1vw;
 }
 
-.box{
+.container img{
   width: 18.229166666666668vw;
   height: 25.96053997923157vh;
-  background-color: white;
-  border-radius: 2.6041666666666665vw;
-  box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.15);
-}
-
-a{
-  text-decoration: none;
-  color: black;
-}
-div#box-1 img{
-  width: 13vw;
-  margin-left: -2vw;
-}
-
-div#box-1 p{
-  font-size: 3vw;
-  font-family: 'Passion One', serif;
-  margin-top: -20vh;
-  margin-left: 9vw;
-}
-
-div#box-2 img{
-  width: 12vw;
-  margin-left: -1vw;
-  margin-top: 2vh;
-}
-
-div#box-2 p{
-  font-size: 2.5vw;
-  font-family: 'Passion One', serif;
-  margin-top: -22vh;
-  margin-left: 9vw;
-}
-
-div#box-3 img{
-  width: 8vw;
-  margin-left: 5vw;
-  margin-top: 2vh;
-}
-
-div#box-3 p{
-  font-size: 3vw;
-  font-family: 'Passion One', serif;
-  margin-top: -1vh;
-  margin-left: 5vw;
-}
-
-div#box-4 img{
-  width: 9vw;
-  margin-left: -1vw;
-  margin-top: 3vh;
-}
-
-div#box-4 p{
-  font-size: 3vw;
-  font-family: 'Passion One', serif;
-  margin-top: -15vh;
-  margin-left: 7vw;
 }
 
 h1{
